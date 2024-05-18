@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        /* Destaque para o cabeçalho */
+        header{
+            background-color: cadetblue;
+        }
+        *{
+            text-align: center;
+        }
+        </style>
+
+</head>
+<body>
+    <header>
+        <h1>Contatos</h1>
+    </header>
+    <nav>
+        <!-- Aqui ficam os botoes para navegar entre as 4 paginas -->
+        <a href='index.html'><button>Inicio</button></a>
+
+        <a href='Sobre.html'><button>Sobre Mim</button></a> 
+        
+        <a href='Formação.html'><button>Formação</button></a> 
+        
+        <a href='Portifolio.html'><button>Portifólio</button></a>
+    </nav>
+
+    <br>
+    <h2>Pode me encontrar em</h2>
+    <!-- Aqui entra os dados pessoais para contato -->
+    <p>Telefone: (11)94946-4303</p>
+    <p>email: luizmerendas@gmail.com</p>
+    <a href="https://www.linkedin.com/in/luiz-merenda/">Meu Linkedin</a><!--link dirito para meu perfil no linkedin-->
+    <br><br><br><br>
+    
+    <form action="">
+        <!-- Aqui ficara o formulario SOMENTE VISUAL -->
+        <table style="background-color: rgb(146, 146, 146);">
+            <tr>
+                <th><label for="Nome">Nome:</label></th>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="msg">Digite sua Mensagem</label></td>
+                <td><textarea name="msg" rows="5" cols="40">Deixe uma mensagem</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
